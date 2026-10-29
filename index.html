@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Humairaa Ganey - Portfolio</title>
+    <link rel = "stylesheet" href = "style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="main-navigation">
+        <div class = "nav-left">
+            <span class="logo-text">Humairaa</span>
+        </div>
+
+        <!-- Burger toggle -->
+        <input type="checkbox" id = "nav-toggle" class = "nav-toggle">
+        <label for = "nav-toggle" class = "nav-toggle-label">
+            <div class="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </label>
+
+        <div class = "nav-right">
+            <a href = "index.html">Home</a>
+            <a href = "portfolio.html">Portfolio</a>
+            <a href = "contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <!-- NEW HERO SECTION -->
+    <section class="hero-section">
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+            <div class="hero-left">
+                <img src="images/profile.JPG" alt="Humairaa portrait" class="hero-img">
+            </div>
+
+            <div class="hero-right">
+                <h1 class="hero-title">Hi, I'm <span>Humairaa Ganey</span></h1>
+
+                <p class="hero-text">
+                    IT student. Cat lover. Coffee lover.<br>  
+                    I design and build digital things that feel soft, intentional, and expressive.
+                </p>
+
+                <p class="hero-sub">
+                    Coding, designing, learning — that’s my happy place.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="Files/Humairaa Ganey CV.pdf" class = "btn-primary" target="_blank" rel="noopener noreferrer">View My CV</a>
+                    <a href="contact.html" class="btn-secondary">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main class="container">
+
+        <!-- ABOUT ME SECTION -->
+        <section class="aboutme-section">
+            <div class="cat-bubbles">
+                <img src="images/MyCats.jpeg" alt="Zeus & Gizmo" class="cat-bubble cat-left">
+                <img src="images/down-right-arrow.png" class="arrow-left">
+                <p class="cat-note-left">
+                    My Work From Home Employees<br>~ Zeus & Gizmo ~
+                </p>
+                
+                <img src="images/Honey.jpeg" alt="Honey" class="cat-bubble cat-right">
+                <img src="images/down-right-arrow.png" class="arrow-right">
+                <p class="cat-note-right">
+                    An Honanary Cat Cousin Mention<br>~ Honey ~
+                </p>   
+ 
+            </div>
+
+            <div class = "coffee-bubble">
+                <img src="images/coffee.jpg" alt="Coffee Mug" class="bubble-coffee">
+                <img src="images/down-right-arrow.png" class="arrow-coffee">
+                <p class="coffee-note">
+                    Iced or Hot?<br>Doesn't Matter.<br>I Heard There's Coffee :]
+                </p>
+            </div>
+            <div class="aboutme-header">
+                <h2>A Little Bit About Me</h2>
+                <p class="aboutme-sub">A mix of creativity, calmness, and curiosity.</p>
+            </div>
+
+            <div class="aboutme-content">
+                <p>
+                    I’m an IT student who loves blending <strong>tech</strong> with <strong>design</strong>.
+                    I enjoy creating things that feel soft, calm, and intentional — whether it’s a UI screen,
+                    a website layout, or a small animation that makes someone smile.
+                </p>
+
+                <p>
+                    I’m happiest when I’m learning something new, especially in <strong>Java</strong>,
+                    <strong>Python</strong>, or anything that helps me grow into a confident DevOps engineer.
+                </p>
+
+                <p>
+                    Outside of coding, I’m powered by <strong>cats</strong>, 
+                    <strong>caffeine</strong>, and my "If it sounds good, then add it" playlist.
+                    I love designing things that feel peaceful and expressive.
+                </p>
+            </div>
+
+            <div class="aboutme-icons">
+                <p class="aboutme-tags">
+                    UI/UX Lover <b>|</b> Code Explorer <b>|</b> Multi‑Genre Music Listener <b>|</b> Soft Blue Aesthetic Lover
+                </p>
+            </div>
+        </section>
+
+       <section class="skills-section">
+            <h2 class="skills-title">SKILLS</h2>
+
+            <div class="skills-row">
+
+                <div class="skill-block">
+                    <img src="images/code-solid.png" class="skill-icon">
+                    <a href="#dev-modal">
+                        <span class="skill-item">Web & App Development</span>
+                    </a>
+                </div>
+
+                <div class="skill-block">
+                    <img src="images/network-wired-solid.png" class="skill-icon">
+                    <a href="#network-modal">
+                        <span class="skill-item">Networking & Infrastructure</span>
+                    </a>
+                </div>
+
+                <div class="skill-block">
+                    <img src="images/window-maximize-solid.png" class="skill-icon">
+                    <a href="#design-modal">
+                        <span class="skill-item">Multimedia & Design</span>
+                    </a>
+                </div>
+
+                <div class="skill-block">
+                    <img src="images/palette-solid.png" class="skill-icon">
+                    <a href="#uiux-modal">
+                        <span class="skill-item">UI/UX & Aesthetic Design</span>
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="skills-row softskills-row">
+                <div class="skill-block">
+                    <img src="images/user-tie-solid.png" class="skill-icon">
+                    <a href="#lead-modal">
+                        <span class="skill-item">Leadership</span>
+                    </a>
+                </div>
+
+                <div class="skill-block">
+                    <img src="images/list-check-solid.png" class="skill-icon">
+                    <a href="#project-modal">
+                        <span class="skill-item">Project Management</span>
+                    </a>
+                </div>
+
+                <div class="skill-block">
+                    <img src="images/handshake-angle-solid.png" class="skill-icon">
+                    <a href="#team-modal">
+                        <span class="skill-item">Teamwork</span>
+                    </a>
+                </div>
+
+                <div class="skill-block">
+                    <img src="images/comments-regular.png" class="skill-icon">
+                    <a href="#comm-modal">
+                        <span class="skill-item">Communication</span>
+                    </a>
+                </div>
+
+            </div>
+
+
+            <div id="skillModal" class="modal">
+                <div class="modal-content">
+                    <span class="modal-close">&times;</span>
+                    <h3 id="modal-title"></h3>
+                    <p id="modal-description"></p>
+                </div>
+            </div>
+        </section>
+
+        <div id="dev-modal" class="modal">
+            <div class="modal-content">
+                <a href="#skills-section" class="modal-close">&times;</a>
+                <h3>Web & App Development</h3>
+                <p>I love building things that feel clean, calm, and intentional — mixing creativity with logic to create beautiful, functional experiences.</p>
+            </div>
+        </div>
+
+        <!-- Networking Modal -->
+        <div id="network-modal" class="modal">
+            <div class="modal-content">
+                <a href="#skills-section" class="modal-close">&times;</a>
+                <h3>Networking & Infrastructure</h3>
+                <p>I enjoy understanding how devices communicate, connect, and support each other — it feels like solving a structured puzzle.</p>
+            </div>
+        </div>
+
+        <!-- Multimedia Modal -->
+        <div id="design-modal" class="modal">
+            <div class="modal-content">
+                <a href="#skills-section" class="modal-close">&times;</a>
+                <h3>Multimedia & Design</h3>
+                <p>Soft colours, gentle layouts, and expressive visuals — design is where I feel most creative and peaceful.</p>
+            </div>
+        </div>
+
+        <!-- UI/UX Modal -->
+        <div id="uiux-modal" class="modal">
+            <div class="modal-content">
+                <a href="#skills-section" class="modal-close">&times;</a>
+                <h3>UI/UX & Aesthetic Design</h3>
+                <p>I design with emotion — calmness, softness, and clarity. I want people to feel guided and comfortable when they interact with my work.</p>
+            </div>
+        </div>
+
+        <!-- Leadership Modal -->
+        <div id="lead-modal" class="modal">
+            <div class="modal-content">
+                <a href="#skills-section" class="modal-close">&times;</a>
+                <h3>Leadership</h3>
+                <p>I lead with empathy — listening, supporting, and helping others feel confident and valued.</p>
+            </div>
+        </div>
+
+        <!-- Project Management Modal -->
+        <div id="project-modal" class="modal">
+            <div class="modal-content">
+                <a href="#skills-section" class="modal-close">&times;</a>
+                <h3>Project Management</h3>
+                <p>I enjoy planning, organizing, and turning chaos into clarity. Keeping things flowing smoothly is my strength.</p>
+            </div>
+        </div>
+
+        <!-- Teamwork Modal -->
+        <div id="team-modal" class="modal">
+            <div class="modal-content">
+                <a href="#skills-section" class="modal-close">&times;</a>
+                <h3>Teamwork</h3>
+                <p>I love collaborating — sharing ideas, supporting others, and creating meaningful work together.</p>
+            </div>
+        </div>
+
+        <!-- Communication Modal -->
+        <div id="comm-modal" class="modal">
+            <div class="modal-content">
+                <a href="#skills-section" class="modal-close">&times;</a>
+                <h3>Communication</h3>
+                <p>I communicate gently and clearly — expressing ideas in a warm, understandable, supportive way.</p>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <p> 
+            &copy; 2026 Humairaa Ganey. All rights reserved.
+        </p>
+    </footer>
+</body>
+</html>
