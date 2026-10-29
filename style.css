@@ -216,7 +216,7 @@ h1, h2, h3{
 .hero-section {
     position: relative;
     height: 85vh;
-    background: url("Images/Workspace.JPEG") center/cover no-repeat;
+    background: url("Images/Workspace.jpeg") center/cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
